@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Banco Central Fake</h1>
+
+<div class="card">
+  <p>Saldo: R$ <span id="balance">0</span></p>
+</div>
+
+<div class="pix-box">
+  <input id="to" placeholder="Enviar para">
+  <input id="value" placeholder="Valor">
+
+  <button onclick="sendPix()">Enviar Pix</button>
+</div>
+
+<div id="history"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
